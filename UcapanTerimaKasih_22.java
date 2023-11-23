@@ -10,6 +10,11 @@ public class UcapanTerimaKasih_22 {
         return namaOrang;
     }
 
+    public static void ucapanTambahan(String ucap)
+    {
+        System.out.println("Ucapan Tambahan: "+ ucap);
+    }
+
     public static void ucapanTerimaKasih()
     {
         String nama =  PenerimaUcapan();
@@ -19,5 +24,7 @@ public class UcapanTerimaKasih_22 {
 
     public static void main(String[] args) {
         ucapanTerimaKasih();
+        ucapanTambahan("Semangat!!!");
+        
     }
 }
